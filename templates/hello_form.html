@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content%}
+        <form action="/hello" method="post">
+            <label for="first_name">First Name:</label>
+            <input id="first_name" type="text" name="first_name" />
+            <input type="submit" />
+        </form>
+{% endblock %}
